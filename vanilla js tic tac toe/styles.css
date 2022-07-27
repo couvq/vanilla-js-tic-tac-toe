@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+#board {
+    /* background-color: lightblue; */
+    border-radius: 5px;
+    width: 20rem;
+    height: 20rem;
+    table-layout: fixed;
+}
+td:after {
+    content: "\00A0";
+  }
+
+button {
+    margin-top: 1rem;
+    padding: .5rem;
+    width: 19.8rem;
+}
+
+.clickable {
+    border: 2px solid black;
+}
